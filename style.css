@@ -22,12 +22,15 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px auto 0;
+  width: 75%;
+  border: 2px solid black;
+  border-radius: 12px;
 }
 
 .row {
   display: flex;
-  width: 60%;
+  align-self: stretch;
 }
 
 .row-item {

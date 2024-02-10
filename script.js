@@ -13,3 +13,9 @@ function createRow(length) {
     }
     container.append(row);
 }
+
+function createGrid(length) {
+    for (let i = 0; i < length; i++) createRow(length);
+}
+
+createGrid(12);
