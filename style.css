@@ -36,11 +36,12 @@ h1 {
   flex: 1;
   aspect-ratio: 1 / 1;
   border: 1px solid lightgray;
+  filter: brightness();
 }
 
 .create-grid {
   font-size: 16px;
-  padding: 6px;
+  padding: 6px 10px;
   background-color: #f4f4f4;
   border: 1px solid lightgrey;
   border-radius: 8px;
