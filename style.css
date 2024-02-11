@@ -37,3 +37,12 @@ h1 {
   aspect-ratio: 1 / 1;
   border: 1px solid lightgray;
 }
+
+.create-grid {
+  font-size: 16px;
+  padding: 6px;
+  background-color: #f4f4f4;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin-top: 22px;
+}
